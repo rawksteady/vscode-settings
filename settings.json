@@ -2,9 +2,8 @@
     "editor.cursorBlinking": "solid",
     "editor.cursorStyle": "line",
     "editor.dragAndDrop": false,
-    "editor.fontFamily": "Native Light",
     "editor.fontLigatures": true,
-    "editor.fontSize": 13,
+    "editor.fontSize": 14,
     "editor.formatOnPaste": true,
     "editor.insertSpaces": true,
     "editor.lineHeight": 31,
@@ -13,7 +12,7 @@
     "editor.mouseWheelZoom": false,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.occurrencesHighlight": true,
-    "editor.parameterHints": false,
+    "editor.parameterHints.enabled": false,
     "editor.renderControlCharacters": true,
     "editor.renderIndentGuides": true,
     "editor.renderLineHighlight": "line",
@@ -22,7 +21,7 @@
     "editor.selectionHighlight": true,
     "editor.snippetSuggestions": "top",
     "editor.tokenColorCustomizations": {
-        "[βui - Nord]": {
+        "[Nord]": {
             "textMateRules": [
                 {
                     "name": "Comment",
@@ -43,7 +42,8 @@
     },
     "editor.wordWrap": "off",
     "emmet.includeLanguages": {
-        "smarty": "html"
+        "smarty": "html",
+        "Smarty": "html"
     },
     "explorer.autoReveal": false,
     "files.insertFinalNewline": false,
@@ -53,13 +53,19 @@
     "html.suggest.ionic": false,
     "problems.decorations.enabled": false,
     "search.location": "panel",
-    "sublimeTextKeymap.promptV3Features": true,
-    "terminal.integrated.fontFamily": "Native Light",
-    "terminal.integrated.fontSize": 13,
+    "terminal.integrated.fontSize": 11,
     "window.zoomLevel": 0,
     "workbench.activityBar.visible": false,
-    "workbench.colorTheme": "βui - Nord",
     "workbench.iconTheme": "city-lights-icons-vsc",
     "workbench.startupEditor": "none",
     "workbench.editor.tabSizing": "shrink",
+    "editor.quickSuggestions": {
+        "other": false,
+        "comments": false,
+        "strings": false
+    },
+    "workbench.colorTheme": "Nord",
+    "editor.tabSize": 2,
+    "editor.hover.enabled": false,
+    "emmet.triggerExpansionOnTab": true
 }
